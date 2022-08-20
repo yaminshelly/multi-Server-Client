@@ -1,0 +1,168 @@
+ינו׳ 05, 2022 1:26:11 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient$1 run
+INFO: My Log client :
+
+
+ינו׳ 05, 2022 1:26:12 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient <init>
+INFO: Welcome to the client : 
+
+ינו׳ 05, 2022 1:26:28 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient getVersion
+INFO: 
+Successful version a file in serverOne: file3.pdf
+ the version is : 3d619e9989704a5e2e2b0452b1621b8a2c47d7becba87581e59f91b675717108,2022-01-05T13:13:01Z locked by : no one
+ינו׳ 05, 2022 1:29:49 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file3.pdf , size : 3407432
+
+ינו׳ 05, 2022 1:29:53 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+Upload : not connect to server :serverTwo
+ינו׳ 05, 2022 1:29:55 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+ERROR :Upload not succsessfuly
+
+ינו׳ 05, 2022 1:30:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+Upload : not connect to server :serverThree
+ינו׳ 05, 2022 1:33:15 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: 
+ListOfServer : 
+ 
+ינו׳ 05, 2022 1:33:15 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file1.txt  
+ינו׳ 05, 2022 1:33:15 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file2.pdf  
+ינו׳ 05, 2022 1:33:15 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file3.pdf  
+ינו׳ 05, 2022 1:33:28 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient downloadFile
+INFO: 
+The file download succesfully! 
+ינו׳ 05, 2022 1:34:37 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient Lock
+INFO: Successful Lock a file : file2.pdf
+
+ינו׳ 05, 2022 1:35:58 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file2.pdf , size : 2041951
+
+ינו׳ 05, 2022 1:36:03 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient Upload
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 1:38:58 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient Lock
+INFO: Successful Lock a file : file1.txt
+
+ינו׳ 05, 2022 1:41:24 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient getVersion
+INFO: 
+Successful version a file in serverOne: file3.pdf
+ the version is : 3d619e9989704a5e2e2b0452b1621b8a2c47d7becba87581e59f91b675717108,2022-01-05T13:13:01Z locked by : 10.0.0.26
+ינו׳ 05, 2022 1:50:11 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient grtVersionFromAll
+INFO: 
+Server : serverTwo 10.0.0.27:  1111 version of file: file1.txt : 57b0678acb6107756f13cbb59dd99ab54575061bef796cf7c78455e44c472b49,2022-01-05T13:47:48Z locked by : no one  
+
+ינו׳ 05, 2022 1:50:11 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient grtVersionFromAll
+INFO: 
+Server : serverOne 10.0.0.31:  1111 version of file: file1.txt : 6124c28719e7c3eea558df208835b072856a51f437c68fd98a59bd805456d0dc,2022-01-05T12:59:19Z locked by : 10.0.0.27 
+
+ינו׳ 05, 2022 1:50:11 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient grtVersionFromAll
+INFO: 
+Server : serverThree 10.0.0.26:  1111 version of file: file1.txt : 57b0678acb6107756f13cbb59dd99ab54575061bef796cf7c78455e44c472b49,2022-01-05T13:47:49Z locked by : no one  
+
+ינו׳ 05, 2022 1:53:23 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Successful LOCK a file : file1.txt
+
+ינו׳ 05, 2022 1:53:23 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Failed LOCK a file : file1.txt
+
+ינו׳ 05, 2022 1:53:24 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Successful LOCK a file : file1.txt
+
+ינו׳ 05, 2022 1:55:33 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file1.txt , size : 13437614
+
+ינו׳ 05, 2022 1:55:39 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 1:55:53 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 1:56:01 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 2:00:59 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file2.pdf , size : 64340162
+
+ינו׳ 05, 2022 2:01:19 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient Upload
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 2:07:01 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient getVersion
+INFO: 
+Failed get version a file : file2.txt, it doesnt exist in server ! 
+ינו׳ 05, 2022 2:07:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: 
+ListOfServer : 
+ 
+ינו׳ 05, 2022 2:07:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file1.txt  
+ינו׳ 05, 2022 2:07:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file2.pdf  
+ינו׳ 05, 2022 2:07:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file3.pdf  
+ינו׳ 05, 2022 2:07:22 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient getVersion
+INFO: 
+Successful version a file in serverTwo: file2.pdf
+ the version is : 62ed1b47bc66f85ae9cfafcfc8e60a09faef8ee3214f1632e95a219bd139efcc,2022-01-05T14:01:19Z locked by : no one
+ינו׳ 05, 2022 2:08:04 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: 
+ListOfServer : 
+ 
+ינו׳ 05, 2022 2:08:04 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file1.txt  
+ינו׳ 05, 2022 2:08:04 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file2.pdf  
+ינו׳ 05, 2022 2:08:04 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient listOfFiles
+INFO: file3.pdf  
+ינו׳ 05, 2022 2:08:15 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient downloadFile
+INFO: 
+The file download succesfully! 
+ינו׳ 05, 2022 2:16:23 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file3.pdf , size : 2139989
+
+ינו׳ 05, 2022 2:16:32 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient Upload
+INFO: 
+ERROR :Upload not succsessfuly
+
+ינו׳ 05, 2022 2:20:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Successful LOCK a file : file2.pdf
+
+ינו׳ 05, 2022 2:20:17 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Failed LOCK a file : file2.pdf
+
+ינו׳ 05, 2022 2:20:17 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient LockForAll
+INFO: Successful LOCK a file : file2.pdf
+
+ינו׳ 05, 2022 2:24:16 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file2.pdf , size : 14365215
+
+ינו׳ 05, 2022 2:26:40 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient actionPerformed
+INFO: 
+You choose the file :  file2.pdf , size : 14365215
+
+ינו׳ 05, 2022 2:28:25 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 2:28:42 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+
+ינו׳ 05, 2022 2:28:56 אחה״צ il.ac.kinneret.mjmay.sentenceClient.MultipleClient uploadForAll
+INFO: 
+OK :Upload succsessfuly
+

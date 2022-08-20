@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientScreen">
+   <children>
+      <VBox layoutX="0" layoutY="0" prefHeight="400" prefWidth="600.0">
+         <children>
+             <HBox prefWidth="600.0">
+                 <TextField id="tfServerIP" layoutX="14.0" layoutY="24.0" promptText="Server IP" style="-fx-padding: 10dp,10dp,10dp,10dp;" text="0.0.0.0" />
+                 <Separator orientation="VERTICAL" minWidth="10"/>
+                 <TextField id="tfServerPort" layoutX="207.0" layoutY="24.0" promptText="Server Port" style="-fx-padding: 10dp;" text="6666" />
+                 <Separator orientation="VERTICAL" minWidth="10"/>
+               <Button id="bConnect" mnemonicParsing="false" text="Connect" textFill="#1add0f" />
+             </HBox>
+             <Separator orientation="HORIZONTAL" minHeight="5"/>
+             <HBox prefWidth="600.0">
+                <TextField minWidth="200" prefWidth="300" id="tfSentenceIn" layoutX="14.0" layoutY="24.0" promptText="Enter a sentence" style="-fx-padding: 10dp,10dp,10dp,10dp;" />
+                 <Separator orientation="VERTICAL" minWidth="10"/>
+                 <Button id="bSend" mnemonicParsing="false" text="Send" />
+             </HBox>
+
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
